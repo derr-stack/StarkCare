@@ -1,80 +1,71 @@
 import { useStarknet } from '@starknet-react/core';
 import { createContext, memo, ReactNode, useEffect, useState } from 'react';
 import { Role } from 'src/types/User';
-import { config } from 'src/config';
+import { config } from 'src/config'
 import axios from 'axios';
 import { getChecksumAddress } from 'starknet';
 
-const { apiUrl } = config;
+const { apiUrl } = config
 
 export interface AuthContextType {
-  userId: string;
-  name: string;
-  role: Role | null;
-  error: string;
-  loaded: boolean;
-  accessToken: string | null;
+  userId: string
+  name: string
+  role: Role | null
+  error: string
+  loaded: boolean
+  accessToken: string | null
 }
 
-export const AuthContext = createContext<AuthContextType | null>(null);
+export const AuthContext = createContext<AuthContextType>(null as any);
 
-// AuthContextProvider is responsible for managing authentication state
+// eslint-disable-next-line react/display-name
 export const AuthContextProvider = memo(({ children }: { children: ReactNode }) => {
-  const { account } = useStarknet();
-  const [error, setError] = useState<string>("");
-  const [loaded, setLoaded] = useState<boolean>(false);
-  const [userId, setUserId] = useState<string>("");
-  const [name, setName] = useState<string>("");
+  const { account } = useStarknet()
+  const [error, setError] = useState("");
+  const [loaded, setLoaded] = useState(false);
+  const [userId, setUserId] = useState('');
+  const [name, setName] = useState('');
   const [role, setRole] = useState<Role | null>(null);
   const [accessToken, setAccessToken] = useState<string | null>(null);
 
-  // Effect to handle user authentication
   useEffect(() => {
     if (!account) {
-      return;
+      return
     }
-
-    const authenticateUser = async () => {
+    (async () => {
       try {
-        // Initialize loading state
-        setLoaded(false);
-
-        const response = await axios.post(`${apiUrl}/auth/login`, {
-          walletId: getChecksumAddress(account),
+        const response = await axios.request({
+          data: {
+            walletId: getChecksumAddress(account)
+          },
+          method: "POST",
+          url: apiUrl + "/auth/login",
         });
-
-        const { user, accessToken } = response.data.data;
-
-        // Update state with user info
+        const { user, accessToken } = response.data.data
         setUserId(user.id);
         setName(user.name);
         setRole(user.role);
-        setAccessToken(accessToken);
-        setError(""); // Clear any previous errors
+        setAccessToken(accessToken)
       } catch (error: any) {
-        // Handle error
-        setError(`Authentication failed: ${error.message}`);
+        setError(error.message);
       } finally {
-        // Update loading state
         setLoaded(true);
       }
-    };
-
-    authenticateUser();
+    })();
   }, [account]);
 
   return (
     <AuthContext.Provider
       value={{
+        error,
+        loaded,
         userId,
         name,
         role,
-        error,
-        loaded,
-        accessToken,
+        accessToken
       }}
     >
       {children}
     </AuthContext.Provider>
-  );
+  )
 });
