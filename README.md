@@ -23,7 +23,7 @@ Traditional medical records are often centralized and susceptible to tampering. 
 
 ## 🎨 Enhanced UX Design 🎨
 <p align="center">
-  <img width='600' src="./diagram/ux_design.png">
+  <img width='600' src="[./diagram/ux_design.png](https://github.com/s000192/starknet-hackathon/raw/master/diagram/diagram.png)">
 </p>
 
 We've put a strong emphasis on user experience, making it easier than ever for both healthcare providers and patients to interact with the platform.
