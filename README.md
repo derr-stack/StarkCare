@@ -23,15 +23,13 @@ Traditional medical records are often centralized and susceptible to tampering. 
 
 ## 🎨 Enhanced UX Design 🎨
 <p align="center">
-  <img width='600' src="[./diagram/ux_design.png](https://github.com/s000192/starknet-hackathon/raw/master/diagram/diagram.png)">
+  <img width='600' src="[./diagram/ux_design.png]">
 </p>
 
 We've put a strong emphasis on user experience, making it easier than ever for both healthcare providers and patients to interact with the platform.
 
 ## Demo Link 🔗
 https://starkcare-demo.vercel.app/  
-Please use our private key: `0xYourPrivateKeyHere`  
-OR contact us on Discord @YourDiscordHandle to get added as a healthcare provider.
 
 ## Demo Video 📹
 TBD
