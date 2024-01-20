@@ -1,11 +1,12 @@
-This is an example showing how to use StarkNet React with Next.js
+# StarkCare Frontend: Leveraging StarkNet with Next.js for Healthcare
 
-## Getting Started
+Welcome to the StarkCare frontend repository! This project utilizes StarkNet's powerful blockchain capabilities in conjunction with Next.js to revolutionize healthcare data management.
 
-First, run the development server:
+## Quick Start Guide
+
+### Launching the Development Server
+
+To get the frontend up and running on your local machine, execute the following command:
 
 ```bash
 yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

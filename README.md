@@ -5,7 +5,7 @@
 
 <!-- tag line -->
 <h1 align='center'>StarkCare</h1>
-<h3 align='center'>Revolutionizing Medical Records with StarkNet and Enhanced UX</h3>
+<h3 align='center'>Integrating Medical Records and Insurance on StarkNet</h3>
 
 <!-- primary badges -->
 <p align="center">
@@ -17,33 +17,37 @@
   </a>
 </p>
 
-## Why❔
+## StarkCare Overview
 
-Traditional medical records are often centralized and susceptible to tampering. StarkCare leverages StarkNet's low-cost computation and high TPS to create an immutable, on-chain record of medical procedures, all while offering a superior user experience.
+StarkCare aims to integrate medical record management with insurance data on StarkNet, simplifying insurance policies into secure, transparent NFTs to enhance data management. This pivot leverages StarkNet's scalability and cost-effectiveness to boost user experience and security in both medical and insurance sectors.
 
-## 🎨 Enhanced UX Design 🎨
-<p align="center">
-  <img width='600' src="./diagram/ux_design.png">
-</p>
-
-We've put a strong emphasis on user experience, making it easier than ever for both healthcare providers and patients to interact with the platform.
-
-## Demo Link 🔗
-https://starkcare-demo.vercel.app/  
-Please use our private key: `0xYourPrivateKeyHere`  
-OR contact us on Discord @YourDiscordHandle to get added as a healthcare provider.
-
-## Demo Video 📹
-TBD
+## Demo and Further Information
+- **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
+- **Demo Video:** Coming Soon
+- **Contact:** Reach out to us for more information.
 
 ## 🌟 What Sets Us Apart 🌟
 - **Advanced Search Filters**: Easily find medical records using our advanced search functionalities.
 - **User-Friendly Dashboards**: Custom dashboards for doctors and patients for a seamless experience.
 - **Multi-Language Support**: Making healthcare accessible to everyone.
 
-## Future Experiments 🧪
-- Integration with IoT devices for real-time health monitoring.
-- Implementing Zero-Knowledge Machine Learning for secure and private analysis of medical data.
+## Completed Milestones
+1. **Basic Medical Record Management Framework:** Developed on StarkNet for streamlined record handling.
+2. **Immutable On-Chain Procedure Logs:** Implemented for enhanced security and transparency.
+3. **Initial Blockchain Integration:** Integrated medical records with blockchain technology.
+
+## Future Objectives
+1. **NFT Structure Development:** To create secure, transparent NFTs for insurance policies.
+2. **Integration with Medical Records:** Merging insurance NFTs with the existing medical record system.
+3. **User Interface Enhancement:** Improving UI for seamless interaction with insurance NFT features.
+4. **Scalability and Efficiency Testing:** Ensuring robust integration of insurance data on StarkNet.
+
+## 🎨 Enhanced UX Design 🎨
+<p align="center">
+  <img width='600' src="./diagram/ux_design.png">
+</p>
+
+We emphasize intuitive user experience, simplifying interactions for healthcare providers and patients.
 
 ## How to Use❔
 Detailed instructions can be found in the `README.md` files in the `starknet`, `frontend`, and `backend` folders.
