@@ -21,45 +21,26 @@
 
 StarkCare aims to integrate medical record management with insurance data on StarkNet, simplifying insurance policies into secure, transparent NFTs to enhance data management. This pivot leverages StarkNet's scalability and cost-effectiveness to boost user experience and security in both medical and insurance sectors.
 
-## Demo and Further Information
-- **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
-- **Demo Video:** Coming Soon
-- **Contact:** Reach out to us for more information.
-=======
-## 🎨 Enhanced UX Design 🎨
-<p align="center">
-  <img width='600' src="[./diagram/ux_design.png]">
-</p>
-
-We've put a strong emphasis on user experience, making it easier than ever for both healthcare providers and patients to interact with the platform.
-
-## Demo and Further Information
-- **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
-- **Demo Video:** Coming Soon
-- **Contact:** Reach us to us for more information.
-
 ## 🌟 What Sets Us Apart 🌟
 - **Advanced Search Filters**: Easily find medical records using our advanced search functionalities.
 - **User-Friendly Dashboards**: Custom dashboards for doctors and patients for a seamless experience.
 - **Multi-Language Support**: Making healthcare accessible to everyone.
 
-## Completed Milestones
+## Completed Milestones 🎨
 1. **Basic Medical Record Management Framework:** Developed on StarkNet for streamlined record handling.
 2. **Immutable On-Chain Procedure Logs:** Implemented for enhanced security and transparency.
 3. **Initial Blockchain Integration:** Integrated medical records with blockchain technology.
 
-## Future Objectives
+## Future Objectives 🔬
 1. **NFT Structure Development:** To create secure, transparent NFTs for insurance policies.
 2. **Integration with Medical Records:** Merging insurance NFTs with the existing medical record system.
 3. **User Interface Enhancement:** Improving UI for seamless interaction with insurance NFT features.
 4. **Scalability and Efficiency Testing:** Ensuring robust integration of insurance data on StarkNet.
 
-## 🎨 Enhanced UX Design 🎨
-<p align="center">
-  <img width='600' src="./diagram/ux_design.png">
-</p>
-
-We emphasize intuitive user experience, simplifying interactions for healthcare providers and patients.
+## Demo and Further Information
+- **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
+- **Demo Video:** Coming Soon
+- **Contact:** Reach out to us for more information.
 
 ## How to Use❔
 Detailed instructions can be found in the `README.md` files in the `starknet`, `frontend`, and `backend` folders.
