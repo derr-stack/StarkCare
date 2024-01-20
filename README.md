@@ -21,7 +21,6 @@
 
 StarkCare aims to integrate medical record management with insurance data on StarkNet, simplifying insurance policies into secure, transparent NFTs to enhance data management. This pivot leverages StarkNet's scalability and cost-effectiveness to boost user experience and security in both medical and insurance sectors.
 
-<<<<<<< HEAD
 ## Demo and Further Information
 - **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
 - **Demo Video:** Coming Soon
@@ -34,12 +33,10 @@ StarkCare aims to integrate medical record management with insurance data on Sta
 
 We've put a strong emphasis on user experience, making it easier than ever for both healthcare providers and patients to interact with the platform.
 
-## Demo Link 🔗
-https://starkcare-demo.vercel.app/  
-
-## Demo Video 📹
-TBD
->>>>>>> 187a1106476b8b22a899f48b6fa2a447d16fe847
+## Demo and Further Information
+- **Demo Link:** [StarkCare Demo](https://starkcare-demo.vercel.app/)
+- **Demo Video:** Coming Soon
+- **Contact:** Reach us to us for more information.
 
 ## 🌟 What Sets Us Apart 🌟
 - **Advanced Search Filters**: Easily find medical records using our advanced search functionalities.
